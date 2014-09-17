@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D84487F19B66787005D1538 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D84487E19B66787005D1538 /* CatalogViewController.m */; };
+		2D8E5B4919B7CAC8009BCF29 /* tire1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4819B7CAC8009BCF29 /* tire1.jpg */; };
+		2D8E5B4B19B7CADC009BCF29 /* tire2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4A19B7CADC009BCF29 /* tire2.jpg */; };
+		2D8E5B4D19B7CAE0009BCF29 /* tire3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4C19B7CAE0009BCF29 /* tire3.jpg */; };
+		2D8E5B4F19B7CAE5009BCF29 /* tire4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4E19B7CAE5009BCF29 /* tire4.jpg */; };
+		2D8E5B5119B7CAEA009BCF29 /* tire5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5019B7CAEA009BCF29 /* tire5.jpg */; };
+		2D8E5B5319B7CAED009BCF29 /* tire6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5219B7CAED009BCF29 /* tire6.jpg */; };
+		2D8E5B5519B7CAF0009BCF29 /* tire7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5419B7CAF0009BCF29 /* tire7.jpg */; };
+		2D8E5B5719B7CAF4009BCF29 /* tire8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5619B7CAF4009BCF29 /* tire8.jpg */; };
+		2D8E5B5919B7CAF6009BCF29 /* tire9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5819B7CAF6009BCF29 /* tire9.jpg */; };
+		2D8E5B5B19B7CAFB009BCF29 /* tire10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5A19B7CAFB009BCF29 /* tire10.jpg */; };
+		2DAC6F7719B36C8400D17226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7619B36C8400D17226 /* Foundation.framework */; };
+		2DAC6F7919B36C8400D17226 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7819B36C8400D17226 /* CoreGraphics.framework */; };
+		2DAC6F7B19B36C8400D17226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7A19B36C8400D17226 /* UIKit.framework */; };
+		2DAC6F8119B36C8400D17226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6F7F19B36C8400D17226 /* InfoPlist.strings */; };
+		2DAC6F8319B36C8400D17226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6F8219B36C8400D17226 /* main.m */; };
+		2DAC6F8719B36C8400D17226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6F8619B36C8400D17226 /* AppDelegate.m */; };
+		2DAC6F8A19B36C8400D17226 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6F8819B36C8400D17226 /* Main_iPhone.storyboard */; };
+		2DAC6F8D19B36C8400D17226 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6F8B19B36C8400D17226 /* Main_iPad.storyboard */; };
+		2DAC6F9019B36C8400D17226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6F8F19B36C8400D17226 /* ViewController.m */; };
+		2DAC6F9219B36C8400D17226 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6F9119B36C8400D17226 /* Images.xcassets */; };
+		2DAC6F9919B36C8400D17226 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F9819B36C8400D17226 /* XCTest.framework */; };
+		2DAC6F9A19B36C8400D17226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7619B36C8400D17226 /* Foundation.framework */; };
+		2DAC6F9B19B36C8400D17226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7A19B36C8400D17226 /* UIKit.framework */; };
+		2DAC6FA319B36C8400D17226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6FA119B36C8400D17226 /* InfoPlist.strings */; };
+		2DAC6FA519B36C8400D17226 /* LocalBusinessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FA419B36C8400D17226 /* LocalBusinessAppTests.m */; };
+		2DAC6FB319B36F6300D17226 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FB219B36F6300D17226 /* MapViewController.m */; };
+		2DAC6FC219B371C000D17226 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FC119B371C000D17226 /* Location.m */; };
+		2DAC6FC519B371FB00D17226 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FC419B371FB00D17226 /* LocationDataController.m */; };
+		2DAC6FD019B38C7400D17226 /* fetzer-tire-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6FCE19B38C7400D17226 /* fetzer-tire-logo.png */; };
+		2DAC6FD119B38C7400D17226 /* fetzer-tire-store.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6FCF19B38C7400D17226 /* fetzer-tire-store.jpg */; };
+		2DAC6FD319B3922E00D17226 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6FD219B3922E00D17226 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DAC6F9C19B36C8400D17226 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DAC6F6B19B36C8400D17226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DAC6F7219B36C8400D17226;
+			remoteInfo = LocalBusinessApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D84487D19B66787005D1538 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
+		2D84487E19B66787005D1538 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
+		2D8E5B4819B7CAC8009BCF29 /* tire1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire1.jpg; sourceTree = "<group>"; };
+		2D8E5B4A19B7CADC009BCF29 /* tire2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire2.jpg; sourceTree = "<group>"; };
+		2D8E5B4C19B7CAE0009BCF29 /* tire3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire3.jpg; sourceTree = "<group>"; };
+		2D8E5B4E19B7CAE5009BCF29 /* tire4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire4.jpg; sourceTree = "<group>"; };
+		2D8E5B5019B7CAEA009BCF29 /* tire5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire5.jpg; sourceTree = "<group>"; };
+		2D8E5B5219B7CAED009BCF29 /* tire6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire6.jpg; sourceTree = "<group>"; };
+		2D8E5B5419B7CAF0009BCF29 /* tire7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire7.jpg; sourceTree = "<group>"; };
+		2D8E5B5619B7CAF4009BCF29 /* tire8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire8.jpg; sourceTree = "<group>"; };
+		2D8E5B5819B7CAF6009BCF29 /* tire9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire9.jpg; sourceTree = "<group>"; };
+		2D8E5B5A19B7CAFB009BCF29 /* tire10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire10.jpg; sourceTree = "<group>"; };
+		2DAC6F7319B36C8400D17226 /* LocalBusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalBusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAC6F7619B36C8400D17226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DAC6F7819B36C8400D17226 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2DAC6F7A19B36C8400D17226 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2DAC6F7E19B36C8400D17226 /* LocalBusinessApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalBusinessApp-Info.plist"; sourceTree = "<group>"; };
+		2DAC6F8019B36C8400D17226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DAC6F8219B36C8400D17226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DAC6F8419B36C8400D17226 /* LocalBusinessApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalBusinessApp-Prefix.pch"; sourceTree = "<group>"; };
+		2DAC6F8519B36C8400D17226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2DAC6F8619B36C8400D17226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2DAC6F8919B36C8400D17226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2DAC6F8C19B36C8400D17226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2DAC6F8E19B36C8400D17226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2DAC6F8F19B36C8400D17226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2DAC6F9119B36C8400D17226 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DAC6F9719B36C8400D17226 /* LocalBusinessAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalBusinessAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAC6F9819B36C8400D17226 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2DAC6FA019B36C8400D17226 /* LocalBusinessAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalBusinessAppTests-Info.plist"; sourceTree = "<group>"; };
+		2DAC6FA219B36C8400D17226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DAC6FA419B36C8400D17226 /* LocalBusinessAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalBusinessAppTests.m; sourceTree = "<group>"; };
+		2DAC6FB119B36F6300D17226 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2DAC6FB219B36F6300D17226 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		2DAC6FC019B371C000D17226 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		2DAC6FC119B371C000D17226 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		2DAC6FC319B371FB00D17226 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
+		2DAC6FC419B371FB00D17226 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
+		2DAC6FCE19B38C7400D17226 /* fetzer-tire-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fetzer-tire-logo.png"; sourceTree = "<group>"; };
+		2DAC6FCF19B38C7400D17226 /* fetzer-tire-store.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fetzer-tire-store.jpg"; sourceTree = "<group>"; };
+		2DAC6FD219B3922E00D17226 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DAC6F7019B36C8400D17226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC6FD319B3922E00D17226 /* MapKit.framework in Frameworks */,
+				2DAC6F7919B36C8400D17226 /* CoreGraphics.framework in Frameworks */,
+				2DAC6F7B19B36C8400D17226 /* UIKit.framework in Frameworks */,
+				2DAC6F7719B36C8400D17226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAC6F9419B36C8400D17226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC6F9919B36C8400D17226 /* XCTest.framework in Frameworks */,
+				2DAC6F9B19B36C8400D17226 /* UIKit.framework in Frameworks */,
+				2DAC6F9A19B36C8400D17226 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DAC6F6A19B36C8400D17226 = {
+			isa = PBXGroup;
+			children = (
+				2DAC6F7C19B36C8400D17226 /* LocalBusinessApp */,
+				2DAC6F9E19B36C8400D17226 /* LocalBusinessAppTests */,
+				2DAC6F7519B36C8400D17226 /* Frameworks */,
+				2DAC6F7419B36C8400D17226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DAC6F7419B36C8400D17226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC6F7319B36C8400D17226 /* LocalBusinessApp.app */,
+				2DAC6F9719B36C8400D17226 /* LocalBusinessAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DAC6F7519B36C8400D17226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC6FD219B3922E00D17226 /* MapKit.framework */,
+				2DAC6F7619B36C8400D17226 /* Foundation.framework */,
+				2DAC6F7819B36C8400D17226 /* CoreGraphics.framework */,
+				2DAC6F7A19B36C8400D17226 /* UIKit.framework */,
+				2DAC6F9819B36C8400D17226 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DAC6F7C19B36C8400D17226 /* LocalBusinessApp */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC6F8519B36C8400D17226 /* AppDelegate.h */,
+				2DAC6F8619B36C8400D17226 /* AppDelegate.m */,
+				2DAC6F8819B36C8400D17226 /* Main_iPhone.storyboard */,
+				2DAC6F8B19B36C8400D17226 /* Main_iPad.storyboard */,
+				2DAC6F8E19B36C8400D17226 /* ViewController.h */,
+				2DAC6F8F19B36C8400D17226 /* ViewController.m */,
+				2DAC6F9119B36C8400D17226 /* Images.xcassets */,
+				2DAC6FCE19B38C7400D17226 /* fetzer-tire-logo.png */,
+				2DAC6FCF19B38C7400D17226 /* fetzer-tire-store.jpg */,
+				2D8E5B4819B7CAC8009BCF29 /* tire1.jpg */,
+				2D8E5B4A19B7CADC009BCF29 /* tire2.jpg */,
+				2D8E5B4C19B7CAE0009BCF29 /* tire3.jpg */,
+				2D8E5B4E19B7CAE5009BCF29 /* tire4.jpg */,
+				2D8E5B5019B7CAEA009BCF29 /* tire5.jpg */,
+				2D8E5B5219B7CAED009BCF29 /* tire6.jpg */,
+				2D8E5B5419B7CAF0009BCF29 /* tire7.jpg */,
+				2D8E5B5619B7CAF4009BCF29 /* tire8.jpg */,
+				2D8E5B5819B7CAF6009BCF29 /* tire9.jpg */,
+				2D8E5B5A19B7CAFB009BCF29 /* tire10.jpg */,
+				2DAC6F7D19B36C8400D17226 /* Supporting Files */,
+				2DAC6FB119B36F6300D17226 /* MapViewController.h */,
+				2DAC6FB219B36F6300D17226 /* MapViewController.m */,
+				2DAC6FC019B371C000D17226 /* Location.h */,
+				2DAC6FC119B371C000D17226 /* Location.m */,
+				2DAC6FC319B371FB00D17226 /* LocationDataController.h */,
+				2DAC6FC419B371FB00D17226 /* LocationDataController.m */,
+				2D84487D19B66787005D1538 /* CatalogViewController.h */,
+				2D84487E19B66787005D1538 /* CatalogViewController.m */,
+			);
+			path = LocalBusinessApp;
+			sourceTree = "<group>";
+		};
+		2DAC6F7D19B36C8400D17226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC6F7E19B36C8400D17226 /* LocalBusinessApp-Info.plist */,
+				2DAC6F7F19B36C8400D17226 /* InfoPlist.strings */,
+				2DAC6F8219B36C8400D17226 /* main.m */,
+				2DAC6F8419B36C8400D17226 /* LocalBusinessApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DAC6F9E19B36C8400D17226 /* LocalBusinessAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC6FA419B36C8400D17226 /* LocalBusinessAppTests.m */,
+				2DAC6F9F19B36C8400D17226 /* Supporting Files */,
+			);
+			path = LocalBusinessAppTests;
+			sourceTree = "<group>";
+		};
+		2DAC6F9F19B36C8400D17226 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DAC6FA019B36C8400D17226 /* LocalBusinessAppTests-Info.plist */,
+				2DAC6FA119B36C8400D17226 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DAC6F7219B36C8400D17226 /* LocalBusinessApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DAC6FA819B36C8400D17226 /* Build configuration list for PBXNativeTarget "LocalBusinessApp" */;
+			buildPhases = (
+				2DAC6F6F19B36C8400D17226 /* Sources */,
+				2DAC6F7019B36C8400D17226 /* Frameworks */,
+				2DAC6F7119B36C8400D17226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalBusinessApp;
+			productName = LocalBusinessApp;
+			productReference = 2DAC6F7319B36C8400D17226 /* LocalBusinessApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DAC6F9619B36C8400D17226 /* LocalBusinessAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DAC6FAB19B36C8400D17226 /* Build configuration list for PBXNativeTarget "LocalBusinessAppTests" */;
+			buildPhases = (
+				2DAC6F9319B36C8400D17226 /* Sources */,
+				2DAC6F9419B36C8400D17226 /* Frameworks */,
+				2DAC6F9519B36C8400D17226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DAC6F9D19B36C8400D17226 /* PBXTargetDependency */,
+			);
+			name = LocalBusinessAppTests;
+			productName = LocalBusinessAppTests;
+			productReference = 2DAC6F9719B36C8400D17226 /* LocalBusinessAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DAC6F6B19B36C8400D17226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					2DAC6F9619B36C8400D17226 = {
+						TestTargetID = 2DAC6F7219B36C8400D17226;
+					};
+				};
+			};
+			buildConfigurationList = 2DAC6F6E19B36C8400D17226 /* Build configuration list for PBXProject "LocalBusinessApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DAC6F6A19B36C8400D17226;
+			productRefGroup = 2DAC6F7419B36C8400D17226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DAC6F7219B36C8400D17226 /* LocalBusinessApp */,
+				2DAC6F9619B36C8400D17226 /* LocalBusinessAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DAC6F7119B36C8400D17226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC6FD119B38C7400D17226 /* fetzer-tire-store.jpg in Resources */,
+				2D8E5B4919B7CAC8009BCF29 /* tire1.jpg in Resources */,
+				2D8E5B5919B7CAF6009BCF29 /* tire9.jpg in Resources */,
+				2D8E5B5319B7CAED009BCF29 /* tire6.jpg in Resources */,
+				2D8E5B4F19B7CAE5009BCF29 /* tire4.jpg in Resources */,
+				2DAC6F8D19B36C8400D17226 /* Main_iPad.storyboard in Resources */,
+				2DAC6F9219B36C8400D17226 /* Images.xcassets in Resources */,
+				2D8E5B5519B7CAF0009BCF29 /* tire7.jpg in Resources */,
+				2D8E5B5119B7CAEA009BCF29 /* tire5.jpg in Resources */,
+				2D8E5B5719B7CAF4009BCF29 /* tire8.jpg in Resources */,
+				2DAC6FD019B38C7400D17226 /* fetzer-tire-logo.png in Resources */,
+				2DAC6F8A19B36C8400D17226 /* Main_iPhone.storyboard in Resources */,
+				2D8E5B4B19B7CADC009BCF29 /* tire2.jpg in Resources */,
+				2DAC6F8119B36C8400D17226 /* InfoPlist.strings in Resources */,
+				2D8E5B5B19B7CAFB009BCF29 /* tire10.jpg in Resources */,
+				2D8E5B4D19B7CAE0009BCF29 /* tire3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAC6F9519B36C8400D17226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC6FA319B36C8400D17226 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DAC6F6F19B36C8400D17226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC6F9019B36C8400D17226 /* ViewController.m in Sources */,
+				2DAC6F8719B36C8400D17226 /* AppDelegate.m in Sources */,
+				2DAC6F8319B36C8400D17226 /* main.m in Sources */,
+				2DAC6FC219B371C000D17226 /* Location.m in Sources */,
+				2DAC6FB319B36F6300D17226 /* MapViewController.m in Sources */,
+				2D84487F19B66787005D1538 /* CatalogViewController.m in Sources */,
+				2DAC6FC519B371FB00D17226 /* LocationDataController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DAC6F9319B36C8400D17226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DAC6FA519B36C8400D17226 /* LocalBusinessAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DAC6F9D19B36C8400D17226 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DAC6F7219B36C8400D17226 /* LocalBusinessApp */;
+			targetProxy = 2DAC6F9C19B36C8400D17226 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DAC6F7F19B36C8400D17226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAC6F8019B36C8400D17226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DAC6F8819B36C8400D17226 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAC6F8919B36C8400D17226 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2DAC6F8B19B36C8400D17226 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAC6F8C19B36C8400D17226 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2DAC6FA119B36C8400D17226 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DAC6FA219B36C8400D17226 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DAC6FA619B36C8400D17226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DAC6FA719B36C8400D17226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DAC6FA919B36C8400D17226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalBusinessApp/LocalBusinessApp-Prefix.pch";
+				INFOPLIST_FILE = "LocalBusinessApp/LocalBusinessApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DAC6FAA19B36C8400D17226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalBusinessApp/LocalBusinessApp-Prefix.pch";
+				INFOPLIST_FILE = "LocalBusinessApp/LocalBusinessApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2DAC6FAC19B36C8400D17226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocalBusinessApp.app/LocalBusinessApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalBusinessApp/LocalBusinessApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LocalBusinessAppTests/LocalBusinessAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2DAC6FAD19B36C8400D17226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LocalBusinessApp.app/LocalBusinessApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalBusinessApp/LocalBusinessApp-Prefix.pch";
+				INFOPLIST_FILE = "LocalBusinessAppTests/LocalBusinessAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DAC6F6E19B36C8400D17226 /* Build configuration list for PBXProject "LocalBusinessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAC6FA619B36C8400D17226 /* Debug */,
+				2DAC6FA719B36C8400D17226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DAC6FA819B36C8400D17226 /* Build configuration list for PBXNativeTarget "LocalBusinessApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAC6FA919B36C8400D17226 /* Debug */,
+				2DAC6FAA19B36C8400D17226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DAC6FAB19B36C8400D17226 /* Build configuration list for PBXNativeTarget "LocalBusinessAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DAC6FAC19B36C8400D17226 /* Debug */,
+				2DAC6FAD19B36C8400D17226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DAC6F6B19B36C8400D17226 /* Project object */;
+}

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D84487F19B66787005D1538 /* CatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D84487E19B66787005D1538 /* CatalogViewController.m */; };
+		2D8E5B4919B7CAC8009BCF29 /* tire1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4819B7CAC8009BCF29 /* tire1.jpg */; };
+		2D8E5B4B19B7CADC009BCF29 /* tire2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4A19B7CADC009BCF29 /* tire2.jpg */; };
+		2D8E5B4D19B7CAE0009BCF29 /* tire3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4C19B7CAE0009BCF29 /* tire3.jpg */; };
+		2D8E5B4F19B7CAE5009BCF29 /* tire4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B4E19B7CAE5009BCF29 /* tire4.jpg */; };
+		2D8E5B5119B7CAEA009BCF29 /* tire5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5019B7CAEA009BCF29 /* tire5.jpg */; };
+		2D8E5B5319B7CAED009BCF29 /* tire6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5219B7CAED009BCF29 /* tire6.jpg */; };
+		2D8E5B5519B7CAF0009BCF29 /* tire7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5419B7CAF0009BCF29 /* tire7.jpg */; };
+		2D8E5B5719B7CAF4009BCF29 /* tire8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5619B7CAF4009BCF29 /* tire8.jpg */; };
+		2D8E5B5919B7CAF6009BCF29 /* tire9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5819B7CAF6009BCF29 /* tire9.jpg */; };
+		2D8E5B5B19B7CAFB009BCF29 /* tire10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D8E5B5A19B7CAFB009BCF29 /* tire10.jpg */; };
 		2DAC6F7719B36C8400D17226 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7619B36C8400D17226 /* Foundation.framework */; };
 		2DAC6F7919B36C8400D17226 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7819B36C8400D17226 /* CoreGraphics.framework */; };
 		2DAC6F7B19B36C8400D17226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7A19B36C8400D17226 /* UIKit.framework */; };
@@ -22,6 +33,12 @@
 		2DAC6F9B19B36C8400D17226 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6F7A19B36C8400D17226 /* UIKit.framework */; };
 		2DAC6FA319B36C8400D17226 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6FA119B36C8400D17226 /* InfoPlist.strings */; };
 		2DAC6FA519B36C8400D17226 /* LocalBusinessAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FA419B36C8400D17226 /* LocalBusinessAppTests.m */; };
+		2DAC6FB319B36F6300D17226 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FB219B36F6300D17226 /* MapViewController.m */; };
+		2DAC6FC219B371C000D17226 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FC119B371C000D17226 /* Location.m */; };
+		2DAC6FC519B371FB00D17226 /* LocationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DAC6FC419B371FB00D17226 /* LocationDataController.m */; };
+		2DAC6FD019B38C7400D17226 /* fetzer-tire-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6FCE19B38C7400D17226 /* fetzer-tire-logo.png */; };
+		2DAC6FD119B38C7400D17226 /* fetzer-tire-store.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DAC6FCF19B38C7400D17226 /* fetzer-tire-store.jpg */; };
+		2DAC6FD319B3922E00D17226 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAC6FD219B3922E00D17226 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D84487D19B66787005D1538 /* CatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogViewController.h; sourceTree = "<group>"; };
+		2D84487E19B66787005D1538 /* CatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogViewController.m; sourceTree = "<group>"; };
+		2D8E5B4819B7CAC8009BCF29 /* tire1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire1.jpg; sourceTree = "<group>"; };
+		2D8E5B4A19B7CADC009BCF29 /* tire2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire2.jpg; sourceTree = "<group>"; };
+		2D8E5B4C19B7CAE0009BCF29 /* tire3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire3.jpg; sourceTree = "<group>"; };
+		2D8E5B4E19B7CAE5009BCF29 /* tire4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire4.jpg; sourceTree = "<group>"; };
+		2D8E5B5019B7CAEA009BCF29 /* tire5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire5.jpg; sourceTree = "<group>"; };
+		2D8E5B5219B7CAED009BCF29 /* tire6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire6.jpg; sourceTree = "<group>"; };
+		2D8E5B5419B7CAF0009BCF29 /* tire7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire7.jpg; sourceTree = "<group>"; };
+		2D8E5B5619B7CAF4009BCF29 /* tire8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire8.jpg; sourceTree = "<group>"; };
+		2D8E5B5819B7CAF6009BCF29 /* tire9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire9.jpg; sourceTree = "<group>"; };
+		2D8E5B5A19B7CAFB009BCF29 /* tire10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tire10.jpg; sourceTree = "<group>"; };
 		2DAC6F7319B36C8400D17226 /* LocalBusinessApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalBusinessApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAC6F7619B36C8400D17226 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2DAC6F7819B36C8400D17226 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +84,15 @@
 		2DAC6FA019B36C8400D17226 /* LocalBusinessAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalBusinessAppTests-Info.plist"; sourceTree = "<group>"; };
 		2DAC6FA219B36C8400D17226 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2DAC6FA419B36C8400D17226 /* LocalBusinessAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalBusinessAppTests.m; sourceTree = "<group>"; };
+		2DAC6FB119B36F6300D17226 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2DAC6FB219B36F6300D17226 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		2DAC6FC019B371C000D17226 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		2DAC6FC119B371C000D17226 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		2DAC6FC319B371FB00D17226 /* LocationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDataController.h; sourceTree = "<group>"; };
+		2DAC6FC419B371FB00D17226 /* LocationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDataController.m; sourceTree = "<group>"; };
+		2DAC6FCE19B38C7400D17226 /* fetzer-tire-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fetzer-tire-logo.png"; sourceTree = "<group>"; };
+		2DAC6FCF19B38C7400D17226 /* fetzer-tire-store.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fetzer-tire-store.jpg"; sourceTree = "<group>"; };
+		2DAC6FD219B3922E00D17226 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAC6FD319B3922E00D17226 /* MapKit.framework in Frameworks */,
 				2DAC6F7919B36C8400D17226 /* CoreGraphics.framework in Frameworks */,
 				2DAC6F7B19B36C8400D17226 /* UIKit.framework in Frameworks */,
 				2DAC6F7719B36C8400D17226 /* Foundation.framework in Frameworks */,
@@ -103,6 +142,7 @@
 		2DAC6F7519B36C8400D17226 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DAC6FD219B3922E00D17226 /* MapKit.framework */,
 				2DAC6F7619B36C8400D17226 /* Foundation.framework */,
 				2DAC6F7819B36C8400D17226 /* CoreGraphics.framework */,
 				2DAC6F7A19B36C8400D17226 /* UIKit.framework */,
@@ -121,7 +161,27 @@
 				2DAC6F8E19B36C8400D17226 /* ViewController.h */,
 				2DAC6F8F19B36C8400D17226 /* ViewController.m */,
 				2DAC6F9119B36C8400D17226 /* Images.xcassets */,
+				2DAC6FCE19B38C7400D17226 /* fetzer-tire-logo.png */,
+				2DAC6FCF19B38C7400D17226 /* fetzer-tire-store.jpg */,
+				2D8E5B4819B7CAC8009BCF29 /* tire1.jpg */,
+				2D8E5B4A19B7CADC009BCF29 /* tire2.jpg */,
+				2D8E5B4C19B7CAE0009BCF29 /* tire3.jpg */,
+				2D8E5B4E19B7CAE5009BCF29 /* tire4.jpg */,
+				2D8E5B5019B7CAEA009BCF29 /* tire5.jpg */,
+				2D8E5B5219B7CAED009BCF29 /* tire6.jpg */,
+				2D8E5B5419B7CAF0009BCF29 /* tire7.jpg */,
+				2D8E5B5619B7CAF4009BCF29 /* tire8.jpg */,
+				2D8E5B5819B7CAF6009BCF29 /* tire9.jpg */,
+				2D8E5B5A19B7CAFB009BCF29 /* tire10.jpg */,
 				2DAC6F7D19B36C8400D17226 /* Supporting Files */,
+				2DAC6FB119B36F6300D17226 /* MapViewController.h */,
+				2DAC6FB219B36F6300D17226 /* MapViewController.m */,
+				2DAC6FC019B371C000D17226 /* Location.h */,
+				2DAC6FC119B371C000D17226 /* Location.m */,
+				2DAC6FC319B371FB00D17226 /* LocationDataController.h */,
+				2DAC6FC419B371FB00D17226 /* LocationDataController.m */,
+				2D84487D19B66787005D1538 /* CatalogViewController.h */,
+				2D84487E19B66787005D1538 /* CatalogViewController.m */,
 			);
 			path = LocalBusinessApp;
 			sourceTree = "<group>";
@@ -231,10 +291,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAC6FD119B38C7400D17226 /* fetzer-tire-store.jpg in Resources */,
+				2D8E5B4919B7CAC8009BCF29 /* tire1.jpg in Resources */,
+				2D8E5B5919B7CAF6009BCF29 /* tire9.jpg in Resources */,
+				2D8E5B5319B7CAED009BCF29 /* tire6.jpg in Resources */,
+				2D8E5B4F19B7CAE5009BCF29 /* tire4.jpg in Resources */,
 				2DAC6F8D19B36C8400D17226 /* Main_iPad.storyboard in Resources */,
 				2DAC6F9219B36C8400D17226 /* Images.xcassets in Resources */,
+				2D8E5B5519B7CAF0009BCF29 /* tire7.jpg in Resources */,
+				2D8E5B5119B7CAEA009BCF29 /* tire5.jpg in Resources */,
+				2D8E5B5719B7CAF4009BCF29 /* tire8.jpg in Resources */,
+				2DAC6FD019B38C7400D17226 /* fetzer-tire-logo.png in Resources */,
 				2DAC6F8A19B36C8400D17226 /* Main_iPhone.storyboard in Resources */,
+				2D8E5B4B19B7CADC009BCF29 /* tire2.jpg in Resources */,
 				2DAC6F8119B36C8400D17226 /* InfoPlist.strings in Resources */,
+				2D8E5B5B19B7CAFB009BCF29 /* tire10.jpg in Resources */,
+				2D8E5B4D19B7CAE0009BCF29 /* tire3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +328,10 @@
 				2DAC6F9019B36C8400D17226 /* ViewController.m in Sources */,
 				2DAC6F8719B36C8400D17226 /* AppDelegate.m in Sources */,
 				2DAC6F8319B36C8400D17226 /* main.m in Sources */,
+				2DAC6FC219B371C000D17226 /* Location.m in Sources */,
+				2DAC6FB319B36F6300D17226 /* MapViewController.m in Sources */,
+				2D84487F19B66787005D1538 /* CatalogViewController.m in Sources */,
+				2DAC6FC519B371FB00D17226 /* LocationDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +546,7 @@
 				2DAC6FAA19B36C8400D17226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DAC6FAB19B36C8400D17226 /* Build configuration list for PBXNativeTarget "LocalBusinessAppTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +555,7 @@
 				2DAC6FAD19B36C8400D17226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
